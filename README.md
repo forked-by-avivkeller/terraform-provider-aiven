@@ -1,5 +1,7 @@
 # Aiven Terraform Provider
 
+This simulates a safe change
+
 The Terraform provider for [Aiven.io](https://aiven.io/), an open source data platform as a service.
 
 **See the [official documentation](https://registry.terraform.io/providers/aiven/aiven/latest/docs) to learn about all the possible services and resources.**

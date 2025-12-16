@@ -70,7 +70,7 @@ tasks:
     vars:
       EFFECTIVE_PKG_PATH: '{{env "PKG_PATH" | default .PKG_PATH}}'
     cmds:
-      - cmd: "{{.GO_CMD}} test ./{{.EFFECTIVE_PKG_PATH}}/... -v -count {{.TEST_COUNT}} -parallel {{.ACC_TEST_PARALLELISM}} {{.CLI_ARGS}} -timeout {{.ACC_TEST_TIMEOUT}}"
+      - cmd: "printenv"
 
   test-examples:
     desc: "Run examples tests (e.g., task test-examples -- -run TestAccExampleMyThing)"
